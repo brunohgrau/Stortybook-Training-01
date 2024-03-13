@@ -1,4 +1,5 @@
 import { globalDecorators } from "./decorators";
+
 import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
 
 export const preview = {

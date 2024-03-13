@@ -1,11 +1,14 @@
 import React from "react";
-import "./App.css";
-import ChipComponent from "./components/Chip/ChipComponent";
+import { ThemeProvider } from "@mui/material/styles";
+import { globalTheme } from "./globalTheme";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <>
-      <ChipComponent label />
+      <ThemeProvider theme={globalTheme}>
+        <LandingPage />
+      </ThemeProvider>
     </>
   );
 }
