@@ -1,15 +1,14 @@
 import React from "react";
 import { Decorator } from "@storybook/react";
 import { ThemeProvider } from "@mui/material/styles";
-import { globalTheme } from "../src/globalTheme";
 
-export const withTheme: Decorator = (StoryFn) => (
+/* export const withTheme: Decorator = (StoryFn) => (
   <>
     <ThemeProvider theme={globalTheme}>
       <StoryFn />
     </ThemeProvider>
   </>
-);
+); */
 
 export const withMaxWidth: Decorator = (StoryFn) => {
   return (
@@ -21,4 +20,4 @@ export const withMaxWidth: Decorator = (StoryFn) => {
   );
 };
 
-export const globalDecorators = [withTheme];
+export const globalDecorators = [];
