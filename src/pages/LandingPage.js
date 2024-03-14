@@ -9,6 +9,7 @@ import Hero from "../components/Hero/Hero";
 import LogoCollection from "../components/LogoCollection/LogoCollection";
 import Features from "../components/Features/Features";
 import Testemonials from "../components/Testemonials/Testemonials";
+import Highlights from "../components/Highlights/Highlights";
 
 const LandingPage = () => {
   const [mode, setMode] = useState("light");
@@ -24,6 +25,8 @@ const LandingPage = () => {
           <Features />
           <Divider />
           <Testemonials />
+          <Divider />
+          <Highlights />
         </Box>
       </ThemeProvider>
     </>
