@@ -35,8 +35,8 @@ const Hero = () => {
             sx={{ width: { xs: "100%", sm: "70%" } }}
           >
             <Typography
-              component="h2"
-              variant="h2"
+              component="h1"
+              variant="h1"
               sx={{
                 display: "flex",
                 flexDirection: { xs: "column", md: "row" },
@@ -47,7 +47,7 @@ const Hero = () => {
               Our latest&nbsp;
               <Typography
                 component="span"
-                variant="h2"
+                variant="h1"
                 sx={{
                   color: "primary.main",
                 }}
