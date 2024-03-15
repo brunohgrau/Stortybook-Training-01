@@ -11,6 +11,8 @@ import Features from "../components/Features/Features";
 import Testemonials from "../components/Testemonials/Testemonials";
 import Highlights from "../components/Highlights/Highlights";
 import Pricing from "../components/Pricing/Pricing";
+import Faq from "../components/FAQ/Faq";
+import Footer from "../components/Footer/Footer";
 
 const LandingPage = () => {
   const [mode, setMode] = useState("light");
@@ -30,6 +32,10 @@ const LandingPage = () => {
           <Highlights />
           <Divider />
           <Pricing />
+          <Divider />
+          <Faq />
+          <Divider />
+          <Footer />
         </Box>
       </ThemeProvider>
     </>
