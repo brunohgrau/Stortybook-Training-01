@@ -10,6 +10,7 @@ import LogoCollection from "../components/LogoCollection/LogoCollection";
 import Features from "../components/Features/Features";
 import Testemonials from "../components/Testemonials/Testemonials";
 import Highlights from "../components/Highlights/Highlights";
+import Pricing from "../components/Pricing/Pricing";
 
 const LandingPage = () => {
   const [mode, setMode] = useState("light");
@@ -27,6 +28,8 @@ const LandingPage = () => {
           <Testemonials />
           <Divider />
           <Highlights />
+          <Divider />
+          <Pricing />
         </Box>
       </ThemeProvider>
     </>
